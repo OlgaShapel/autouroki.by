@@ -1,0 +1,269 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans'), local('PTSans-Regular'),
+    url('../fonts/ptsans.woff2') format('woff2'),
+    url('../fonts/ptsans.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: local('PT Sans Bold'), local('PTSans-Bold'),
+    url('../fonts/ptsansbold.woff2') format('woff2'),
+    url('../fonts/ptsansbold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+.header img {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+}
+.header {
+    padding: 20px;
+}
+.header-p{
+    text-align: center;
+}
+.header-title{
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 240%;
+}
+.header-phone{
+text-align: right;
+vertical-align: middle;
+}
+.header-name {
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 160%;
+}
+.header-text {
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar.menu-navi {
+    margin-top: 20px;
+    padding-bottom: 19px;
+    background-color: #d6ff33;
+    text-align: center;
+    height: auto;
+}
+.navbar-toggleable-md .navbar-nav {
+    margin: 0 auto;
+}
+.navbar.menu-navi li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 10px;
+}
+.id-link{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #d6ff33;
+    border-radius: 10px;
+    margin-left: 40%;
+    text-decoration: none;
+    margin-top: 65px;
+    }
+.id-link a{
+  text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 24px;
+text-decoration: none;
+    margin-left: 15%;
+    font-weight: 500;
+}
+.id-link a:focus {
+    text-decoration: none;
+}
+
+.id-link a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 100, 0);
+}
+.link {
+    margin-top: 25px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.container.header {
+    background-color: #d6ff33;
+}
+.advantage-header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+.advantage-header__text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.advantage img {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 40%;
+  }
+.advantage-name {
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: #4b5257;
+    font-weight: 600;
+    font-size: 130%;
+}
+.advantage-text{
+    text-align: center;
+}
+.instructor {
+    margin-top: 25px;
+    padding-top: 20px;
+    position: relative;
+}
+.instructor-part {
+    background-color: #d6ff33;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 0;
+}
+.instructor-block__name {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 120%;
+    font-weight: 600;
+}
+.instructor-block__phone {
+    text-align: center;
+    padding-bottom:15px;
+}
+.instructor-block {
+    padding-top: 15px;
+    width: 100%;
+    z-index: 0;
+}
+.instructor-foto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.instructor-block__p {
+text-align: left;
+    padding-left: 15px;
+}
+.auto-nissan {
+    display: inline-block;
+    background-image: url('../img/nissan21.jpg');
+    background-repeat: no-repeat;
+    background-size: contain, 100%;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+.review {
+    background-color: #f2f7f7;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.review-header {
+    margin: 50px;
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00acee;
+}
+.review-header__name {
+    margin-top: 20px;
+    font-size: 110%;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #00acee;
+    margin-left: 15px;
+}
+.review-header__text {
+   margin-left: 15px;
+    margin-right: 15px;
+}
+.send {
+    padding-bottom: 20px;
+}
+.privilege img{
+    display: inline-block;
+}
+.auto-daster{
+    display: inline-block;
+    background-image: url('../img/daster-left.png');
+    background-repeat: no-repeat;
+    background-size: contain, 100%;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+.auto-rapid{
+    display: inline-block;
+    background-image: url('../img/rapid-left.png');
+    background-repeat: no-repeat;
+    background-size: contain, 100%;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+.privilege-text{
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.privilege-text::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 80px;
+    background: url('../img/check_b.svg') no-repeat;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+}
+.footer {
+    width: auto;
+    height: auto;
+    background-color: #d6ff33;
+margin-bottom: 0;
+    padding-bottom: 0;
+}
+.footer-text {
+    padding: 20px;
+    vertical-align: middle;
+}
+
