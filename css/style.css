@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: PT Sans Bold, sans-serif;
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -29,10 +29,8 @@ body {
     font-size: 14px;
 }
 .header img {
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 35px;
-    margin-left: 35%;
+    display: block;
+    margin: 50px auto 35px;
 }
 .header {
     padding: 20px;
@@ -41,16 +39,17 @@ body {
     text-align: center;
 }
 .header-title{
-    font-family: "PT Sans";
+    font-family: PT Sans Bold, serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 240%;
+    font-size: 220%;
 }
 .header-phone{
 text-align: right;
 vertical-align: middle;
 }
 .header-name {
+    font-family: PT Sans Bold, serif;
     margin-top: 50px;
     text-transform: uppercase;
     text-align: center;
@@ -62,7 +61,6 @@ vertical-align: middle;
     text-transform: uppercase;
     text-align: center;
 }
-
 .navbar.menu-navi {
     margin-top: 20px;
     padding-bottom: 19px;
@@ -120,6 +118,7 @@ text-decoration: none;
     background-color: #d6ff33;
 }
 .advantage-header {
+    font-family: PT Sans Bold, serif;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 35px;
@@ -155,6 +154,7 @@ text-decoration: none;
     text-align: center;
     padding-top: 20px;
     padding-right: 0;
+    padding-left: 20px;
 }
 .instructor-block__name {
     text-align: center;
@@ -167,9 +167,10 @@ text-decoration: none;
     padding-bottom:15px;
 }
 .instructor-block {
-    padding-top: 15px;
+ padding-top: 15px;
     width: 100%;
     z-index: 0;
+    padding-left: 10px;
 }
 .instructor-foto {
     margin-top: 20px;
@@ -181,8 +182,7 @@ text-align: left;
 }
 .auto-nissan {
     display: inline-block;
-    background-image: url('../img/nissan21.jpg');
-    background-repeat: no-repeat;
+    background: url('../img/nissan21.jpg') no-repeat;
     background-size: contain, 100%;
     width: 90%;
     height: auto;
@@ -266,4 +266,38 @@ margin-bottom: 0;
     padding: 20px;
     vertical-align: middle;
 }
+.instructor-foto__xudolei {
+    background-size: 150px auto;
+    background: url('../img/portr-xudolei.jpg') no-repeat;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .header-title {
+        font-size: 150%;
+    }
+    .id-link {
+        margin-left: 25%;
+    }
+    .review-header {
+        font-size: 120%;
+    }
+}
+
+@media screen and (min-width: 730px) and (max-width: 991px) {
+    .instructor-foto img {
+        width: 140px;
+        height: auto;
+
+    }
+    .instructor-block {
+        width: auto;
+        height: auto;
+    }
+    .auto-nissan {
+        width: auto;
+    }
+}
+
 
