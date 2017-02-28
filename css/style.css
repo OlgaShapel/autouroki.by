@@ -180,11 +180,11 @@ text-decoration: none;
     font-weight: 600;
 }
 .instructor-block__phone {
+    color: rgba(2, 117, 216, 1);
     text-align: center;
     padding-bottom:15px;
 }
 .instructor-block__phone a:focus {
-    color: rgb(0, 100, 0);
     text-decoration: none;
     text-align: right;
     vertical-align: middle;
@@ -274,7 +274,6 @@ text-align: left;
     vertical-align: middle;
     margin-top: 50px;
 }
-
 .privilege-text::before {
     content: '';
     display: inline-block;
@@ -303,9 +302,21 @@ margin-bottom: 0;
     margin-left: 5px;
     padding-left: 5px;
 }
-.instructor-block__phone.vel::before {
-    content: 'Vel';
-    color: #01549b;
+.vel::before {
+     content: '';
+     display: inline-block;
+     background: url('../img/velcom_logo_V_color1.png') no-repeat;
+     width: 30px;
+     height: 20px;
+    vertical-align: middle;
+    }
+.MTS::before {
+    content: '';
+    display: inline-block;
+    background: url('../img/mts.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .header-title {
